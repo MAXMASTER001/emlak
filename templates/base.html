@@ -9,7 +9,10 @@
   <title>Document</title>
 </head>
 <body>
+
+  {% include 'partials/_header.html' %}
   {% block content %} {% endblock %}
+  {% include 'partials/_footer.html' %}
 
   <!-- jQuery (Necessary for All JavaScript Plugins) -->
   <script src="{% static 'js/jquery/jquery-2.2.4.min.js' %}"></script>
